@@ -31,4 +31,4 @@ No se va a llevar a nadie a juicio.
 * Jaime Álvarez     [@JaimeAlvarez434](https://github.com/JaimeAlvarez434)
 * Álvaro Fraile     [@alvarofraile](https://github.com/alvarofraile)
 * Alejandro Mendoza [@pintamonas4575](https://github.com/pintamonas4575)
-* Javier Quesada    [](https://github.com)
+* Javier Quesada    [@javierquesadapajares](https://github.com/javierquesadapajares)

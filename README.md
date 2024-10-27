@@ -18,8 +18,8 @@ Proyecto de gestión de sistemas de datos masivos de máster de la UPM.
 
 En ella se encuentran las fuentes de datos escogidas.
 
-- *structured*: Datos de la F1.
-- *unstructured*: Próximamente en cines.
+- *structured*: Datos de pilotos y resultados en los premios de la F1.
+- *unstructured*: Agrupación de rankings semanales con los 10 pilotos mejor valorados.
 - *linked*: Próximamente en cines.
 
 # ⚖️ Licencia 

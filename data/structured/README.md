@@ -1,6 +1,6 @@
 # **DATOS ESTRUCTURADOS**
 
-• **Fuente de los Datos:** Dataset de Kaggle [Formula 1 World Championship (1950 - 2024)](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?select=constructors.csv)
+• **Fuente de los Datos:** Dataset de Kaggle. [Formula 1 World Championship (1950 - 2024)](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?select=constructors.csv)
 
 • **Fecha de Recogida:** 19 Octubre 2024
 
@@ -8,7 +8,7 @@
 
 • **Licencia de Uso:** [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)
 
-• **Descripción de las Variables o Atributos:** Explicación detallada de las columnas o características de los datos recopilados.
+• **Descripción de las Variables o Atributos:** 
 
 **TABLA DRIVERS**
 - driverId -> Identificador de los pilotos (Clave primaria)

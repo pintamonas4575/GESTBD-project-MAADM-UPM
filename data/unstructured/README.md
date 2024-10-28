@@ -6,7 +6,7 @@
 
 • **Formato de los Datos:** Archivo CSV.
 
-• **Licencia de Uso:**  *Copyright* de **Formula One World Championship Limited**.
+• **Licencia de Uso:**  *Copyright* de [Formula One Digital Media Limited](https://www.formula1.com/en/information/legal-notices.7egvZU48hzrypubGBNcQKt)
 
 • **Descripción de las Variables o Atributos:** Creación de un CSV a partir de datos no estructurados mediante *web scraping*. El archivo está ordenado desde el ranking más reciente (primeras filas) hasta el más antiguo scrapeado (últimas filas). A su vez, cada ranking está ordenado con las posiciones de los pilotos desde el primero hasta el décimo. 
 

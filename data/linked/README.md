@@ -1,13 +1,11 @@
 # **DATOS ENLAZADOS**
 
-bla bla bla...
+• **Fuente de los Datos:** Generado manualmente basandosé en los datos recopilados en las 2 entregas anteriores.
 
-• **Fuente de los Datos:** Origen de los datos (p. ej., sitio web, API, dataset público).
+• **Fecha de Recogida:** 03/10/2024
 
-• **Fecha de Recogida:** Fecha en la que se recopilaron los datos.
+• **Formato de los Datos:** Archivo RDF
 
-• **Formato de los Datos:** Formatos de los archivos de datos (CSV, JSON, imágenes, etc.).
+• **Licencia de Uso:** Ninguna
 
-• **Licencia de Uso:** Licencias bajo las cuales se encuentran los datos (si aplica).
-
-• **Descripción de las Variables o Atributos:** Explicación detallada de las columnas o características de los datos recopilados.
+• **Descripción de las Variables o Atributos:** La ontología la estructura de los datos recopilados en las entregas anteriores. En el caso de los datos estructurados, las tablas drivers y results están modeladas por las entidades formulaOneDriver y raceResult respectivamente. En el caso de los datos no estructurados, las reviews de los pilotos están representdas por la entidad rankingInfo.

@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:721994ec-14c7-44fa-839c-17899b1eefa2#"
+     xml:base="urn:webprotege:ontology:721994ec-14c7-44fa-839c-17899b1eefa2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:721994ec-14c7-44fa-839c-17899b1eefa2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R7JEKjnBbwBYzzC4rPzUiDU -->
+
+    <owl:ObjectProperty rdf:about="http://upm.es/ont/practica-gestbd/R7JEKjnBbwBYzzC4rPzUiDU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://upm.es/ont/practica-gestbd/RCah5DagthUvOSwjbKkkXQz"/>
+        <rdfs:label xml:lang="en-gb">hasReview</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R7brYHYtvzTi3w81nGapLH4 -->
+
+    <owl:ObjectProperty rdf:about="http://upm.es/ont/practica-gestbd/R7brYHYtvzTi3w81nGapLH4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:label xml:lang="en-gb">hasResult</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R74kQOQTAo02TfuNdVMXmXP -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R74kQOQTAo02TfuNdVMXmXP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">fastestLap</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R7LclYMOAaaMNAkw8JFg6he -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R7LclYMOAaaMNAkw8JFg6he">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">resultId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R7Z1tQsNF1PSvPOTY8ybJ9D -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R7Z1tQsNF1PSvPOTY8ybJ9D">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RCah5DagthUvOSwjbKkkXQz"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en-gb">driverRef</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R7bZvZpa18F51wZHjFMfTnQ -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R7bZvZpa18F51wZHjFMfTnQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="en-gb">points</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R7oeNX01geeVfXm9zAG1PsK -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R7oeNX01geeVfXm9zAG1PsK">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="en-gb">fastestLapSpeed</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R8133lPOWL9lrUcwPCvIYd0 -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R8133lPOWL9lrUcwPCvIYd0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">raceId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R8EMVII7mx9hTowtlC16q6R -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R8EMVII7mx9hTowtlC16q6R">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R8KpjfsWefH14afD8vTIAX6 -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R8KpjfsWefH14afD8vTIAX6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RCah5DagthUvOSwjbKkkXQz"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:label xml:lang="en-gb">url</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R8sN6Bn4cpPEUpslyWqNqng -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R8sN6Bn4cpPEUpslyWqNqng">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">statusId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R8xhtb4T8mOSVHqPHO1hCCX -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R8xhtb4T8mOSVHqPHO1hCCX">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en-gb">nationality</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R9EK1HvO8YfKppgjiUBy8A -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R9EK1HvO8YfKppgjiUBy8A">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en-gb">time</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R9R3YINxJHh7WrE0rqVlIAX -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R9R3YINxJHh7WrE0rqVlIAX">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">position</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R9iBMdBaOpg768x8DmQFbzo -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R9iBMdBaOpg768x8DmQFbzo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:label xml:lang="en-gb">constructorId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R9sX8U0JnDKpXeNJspeWfwW -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R9sX8U0JnDKpXeNJspeWfwW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RCah5DagthUvOSwjbKkkXQz"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en-gb">reviewText</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/R9wBcGvyggEbVI0DTMeWnwY -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/R9wBcGvyggEbVI0DTMeWnwY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">grid</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RBSrXBltyPF7EiIlyarVXm5 -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RBSrXBltyPF7EiIlyarVXm5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">milliseconds</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RBoh7ETniSf7Q7VQgCi8Jzc -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RBoh7ETniSf7Q7VQgCi8Jzc">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">rank</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RCXgyfY4WcGs6f74HOWWqlw -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RCXgyfY4WcGs6f74HOWWqlw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en-gb">fastestLapTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RCw5SS6klFoiXhaUmaIx0UF -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RCw5SS6klFoiXhaUmaIx0UF">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">positionOrder</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RDOWSyaLSxOILfiXu7q9xeL -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RDOWSyaLSxOILfiXu7q9xeL">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en-gb">code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RDtDM9vbeqbFqrqqNeSwXHS -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RDtDM9vbeqbFqrqqNeSwXHS">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en-gb">forename</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RG7fBq1e3I9GGnlwENHBuX -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RG7fBq1e3I9GGnlwENHBuX">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">driverId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RGriEGStuJeHvyvNx4pqVT -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RGriEGStuJeHvyvNx4pqVT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en-gb">surname</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RNTZg6SW04ggzCKBGIFvNP -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RNTZg6SW04ggzCKBGIFvNP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en-gb">dob</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/ROvIrGAcE5c3IKPEmZGNx3 -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/ROvIrGAcE5c3IKPEmZGNx3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RCah5DagthUvOSwjbKkkXQz"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en-gb">rankingDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RdTXrxhPoIgvw1mfw8mdx5 -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RdTXrxhPoIgvw1mfw8mdx5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en-gb">laps</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RqvkHwjuSEwgTCBIOrvLs1 -->
+
+    <owl:DatatypeProperty rdf:about="http://upm.es/ont/practica-gestbd/RqvkHwjuSEwgTCBIOrvLs1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en-gb">positionText</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RCah5DagthUvOSwjbKkkXQz -->
+
+    <owl:Class rdf:about="http://upm.es/ont/practica-gestbd/RCah5DagthUvOSwjbKkkXQz">
+        <rdfs:label xml:lang="en-gb">rankingInfo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg -->
+
+    <owl:Class rdf:about="http://upm.es/ont/practica-gestbd/RD1q3nGUhIEKsnHn6gUc2Fg">
+        <rdfs:label xml:lang="en-gb">raceResult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3 -->
+
+    <owl:Class rdf:about="http://upm.es/ont/practica-gestbd/RDQ2Qeucq48GOxHeYtHTzt3">
+        <rdfs:label xml:lang="en-gb">formulaOneDriver</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

@@ -20,7 +20,7 @@ En ella se encuentran las fuentes de datos escogidas.
 
 - *structured*: Datos de pilotos y resultados en los premios de la F1.
 - *unstructured*: Agrupación de rankings semanales con los 10 pilotos mejor valorados.
-- *linked*: Próximamente en cines.
+- *linked*: Ontología de los datos.
 
 # ⚖️ Licencia 
 

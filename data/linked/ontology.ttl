@@ -1,0 +1,283 @@
+@prefix : <http://upm.es/ont/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/jaime/ontologies/2024/10/untitled-ontology-5> .
+
+<http://www.semanticweb.org/jaime/ontologies/2024/10/untitled-ontology-5> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://upm.es/ont/contains_column
+:contains_column rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Table ;
+                 rdfs:range :Column .
+
+
+###  http://upm.es/ont/contains_index
+:contains_index rdf:type owl:ObjectProperty ;
+                rdfs:domain :Elasticsearch_Database ;
+                rdfs:range :Index .
+
+
+###  http://upm.es/ont/contains_mapping_field
+:contains_mapping_field rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Index ;
+                        rdfs:range :Mapping_Field .
+
+
+###  http://upm.es/ont/contains_table
+:contains_table rdf:type owl:ObjectProperty ;
+                rdfs:domain :Relational_Database ;
+                rdfs:range :Table .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://upm.es/ont/data_type
+:data_type rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Column ,
+                       :Mapping_Field ;
+           rdfs:range xsd:integer ,
+                      xsd:string .
+
+
+###  http://upm.es/ont/endpoint
+:endpoint rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Database ;
+          rdfs:range xsd:string .
+
+
+###  http://upm.es/ont/name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Column ,
+                  :Database ,
+                  :Index ,
+                  :Mapping_Field ,
+                  :Table ;
+      rdfs:range xsd:string .
+
+
+###  http://upm.es/ont/topic
+:topic rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Column ,
+                   :Database ,
+                   :Index ,
+                   :Mapping_Field ,
+                   :Table ;
+       rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://upm.es/ont/Column
+:Column rdf:type owl:Class .
+
+
+###  http://upm.es/ont/Database
+:Database rdf:type owl:Class .
+
+
+###  http://upm.es/ont/Elasticsearch_Database
+:Elasticsearch_Database rdf:type owl:Class ;
+                        rdfs:subClassOf :Unstructured_Database .
+
+
+###  http://upm.es/ont/Index
+:Index rdf:type owl:Class .
+
+
+###  http://upm.es/ont/Mapping_Field
+:Mapping_Field rdf:type owl:Class .
+
+
+###  http://upm.es/ont/Relational_Database
+:Relational_Database rdf:type owl:Class ;
+                     rdfs:subClassOf :Structured_Database .
+
+
+###  http://upm.es/ont/Structured_Database
+:Structured_Database rdf:type owl:Class ;
+                     rdfs:subClassOf :Database .
+
+
+###  http://upm.es/ont/Table
+:Table rdf:type owl:Class .
+
+
+###  http://upm.es/ont/Unstructured_Database
+:Unstructured_Database rdf:type owl:Class ;
+                       rdfs:subClassOf :Database .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://upm.es/ont/Database_hive
+:Database_hive rdf:type owl:NamedIndividual ,
+                        :Relational_Database ;
+               :contains_table :tabla_hive_constructors ,
+                               :tabla_hive_drivers ,
+                               :tabla_hive_races ,
+                               :tabla_hive_results ;
+               :endpoint "localhost,hive"^^xsd:string ;
+               :name "Database Relational F1"^^xsd:string ;
+               :topic "F1"^^xsd:string .
+
+
+###  http://upm.es/ont/Elasticsearch
+:Elasticsearch rdf:type owl:NamedIndividual ,
+                        :Elasticsearch_Database ;
+               :contains_index :index_elastic ;
+               :endpoint "http://localhost:9200"^^xsd:string ;
+               :name "Database NoSQL F1"^^xsd:string ;
+               :topic "F1"^^xsd:string .
+
+
+###  http://upm.es/ont/column_constructor_name
+:column_constructor_name rdf:type owl:NamedIndividual ,
+                                  :Column ;
+                         :data_type "String"^^xsd:string ;
+                         :name "name"^^xsd:string ;
+                         :topic "Constructor_F1_name"^^xsd:string .
+
+
+###  http://upm.es/ont/column_driver_forename
+:column_driver_forename rdf:type owl:NamedIndividual ,
+                                 :Column ;
+                        :data_type "String"^^xsd:string ;
+                        :name "forename"^^xsd:string ;
+                        :topic "Driver_F1_name"^^xsd:string .
+
+
+###  http://upm.es/ont/column_driver_id
+:column_driver_id rdf:type owl:NamedIndividual ,
+                           :Column ;
+                  :data_type "Integer"^^xsd:string ;
+                  :name "driverId"^^xsd:string ;
+                  :topic "Driver_F1_Id"^^xsd:string .
+
+
+###  http://upm.es/ont/column_driver_number
+:column_driver_number rdf:type owl:NamedIndividual ,
+                               :Column ;
+                      :data_type "Integer"^^xsd:string ;
+                      :name "number"^^xsd:string ;
+                      :topic "Driver_F1_number"^^xsd:string .
+
+
+###  http://upm.es/ont/column_driver_surname
+:column_driver_surname rdf:type owl:NamedIndividual ,
+                                :Column ;
+                       :data_type "Integer"^^xsd:string ;
+                       :name "surname"^^xsd:string ;
+                       :topic "Driver_F1_surname"^^xsd:string .
+
+
+###  http://upm.es/ont/index_elastic
+:index_elastic rdf:type owl:NamedIndividual ,
+                        :Index ;
+               :contains_mapping_field :pilot_name_elastic ,
+                                       :pilot_review_elastic ,
+                                       :position_elastic ,
+                                       :ranking_date_elastic ;
+               :name "my_index"^^xsd:string ;
+               :topic "F1"^^xsd:string .
+
+
+###  http://upm.es/ont/pilot_name_elastic
+:pilot_name_elastic rdf:type owl:NamedIndividual ,
+                             :Mapping_Field ;
+                    :data_type "keyword"^^xsd:string ;
+                    :name "mapping name"^^xsd:string ;
+                    :topic "pilot_name"^^xsd:string .
+
+
+###  http://upm.es/ont/pilot_review_elastic
+:pilot_review_elastic rdf:type owl:NamedIndividual ,
+                               :Mapping_Field ;
+                      :data_type "text"^^xsd:string ;
+                      :name "pilot_review"^^xsd:string ;
+                      :topic "Driver_F1_review"^^xsd:string .
+
+
+###  http://upm.es/ont/position_elastic
+:position_elastic rdf:type owl:NamedIndividual ,
+                           :Mapping_Field ;
+                  :data_type "Integer"^^xsd:string ;
+                  :name "position"^^xsd:string ;
+                  :topic "Driver_F1_position"^^xsd:string .
+
+
+###  http://upm.es/ont/ranking_date_elastic
+:ranking_date_elastic rdf:type owl:NamedIndividual ,
+                               :Mapping_Field ;
+                      :data_type "date"^^xsd:string ;
+                      :name "ranking_date"^^xsd:string ;
+                      :topic "Driver_F1_ranking"^^xsd:string .
+
+
+###  http://upm.es/ont/tabla_hive_constructors
+:tabla_hive_constructors rdf:type owl:NamedIndividual ,
+                                  :Table ;
+                         :contains_column :column_constructor_name ;
+                         :name "hive_constructors"^^xsd:string ;
+                         :topic "Constructor_F1_name"^^xsd:string .
+
+
+###  http://upm.es/ont/tabla_hive_drivers
+:tabla_hive_drivers rdf:type owl:NamedIndividual ,
+                             :Table ;
+                    :contains_column :column_driver_forename ,
+                                     :column_driver_id ,
+                                     :column_driver_number ,
+                                     :column_driver_surname ;
+                    :name "hive_drivers"^^xsd:string ;
+                    :topic "Driver_F1_name"^^xsd:string .
+
+
+###  http://upm.es/ont/tabla_hive_races
+:tabla_hive_races rdf:type owl:NamedIndividual ,
+                           :Table ;
+                  :contains_column :column_races_name ,
+                                   :column_races_year ;
+                  :name "hive_races"^^xsd:string ;
+                  :topic "Race_F1"^^xsd:string .
+
+
+###  http://upm.es/ont/tabla_hive_results
+:tabla_hive_results rdf:type owl:NamedIndividual ,
+                             :Table ;
+                    :contains_column :column_results_position ;
+                    :name "hive_results"^^xsd:string ;
+                    :topic "Result_F1"^^xsd:string .
+
+
+###  http://www.semanticweb.org/jaime/ontologies/2024/10/untitled-ontology-5#column_races_name
+:column_races_name rdf:type owl:NamedIndividual ,
+                            :Column ;
+                   :name "name"^^xsd:string .
+
+
+###  http://www.semanticweb.org/jaime/ontologies/2024/10/untitled-ontology-5#column_races_year
+:column_races_year rdf:type owl:NamedIndividual ,
+                            :Column ;
+                   :name "year"^^xsd:string .
+
+
+###  http://www.semanticweb.org/jaime/ontologies/2024/10/untitled-ontology-5#column_results_position
+:column_results_position rdf:type owl:NamedIndividual ,
+                                  :Column ;
+                         :name "position"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
